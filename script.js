@@ -1,10 +1,10 @@
 // Function to fetch weather data from the OpenWeatherMap API
 async function fetchWeatherData() {
   try {
-    // Example API key (Replace with your own)
+    // Example API key
     const apiKey = 'YOUR_API_KEY';
 
-    // Example city name (Replace with your desired city)
+    // Example city name
     const city = 'New York';
 
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
